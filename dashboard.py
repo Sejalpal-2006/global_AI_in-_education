@@ -23,7 +23,7 @@ st.markdown("<h1 style='text-align:left; font-style:italic; color:grey; font-siz
 #1. dat load
 @st.cache_data
 def load_data():
-    data = pd.read_csv("C:\\Users\\Sejal Pal\\OneDrive\\Desktop\\global_ai_in_education_data_analytics\\ai_education_usage_global_2015_2026 (2).csv")
+    data = pd.read_csv("ai_education_usage_global_2015_2026 (2).csv")
     return data
 df = load_data()
 
